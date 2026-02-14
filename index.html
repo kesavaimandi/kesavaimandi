@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kesava Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<header>
+    <div class="logo"><a href="#hero" style="text-decoration: none;color:aliceblue;">Kesava<a style="color: #ff6a00;">.<a></a></div>
+
+    <div class="nav-wrapper">
+        <nav>
+            <a href="#about" class="nav-link active">Who am I?</a>
+            <span>|</span>
+            <a href="#work" class="nav-link">My Work</a>
+            <span>|</span>
+            <a href="#skills" class="nav-link">What I Use?</a>
+            <span>|</span>
+            <a href="#contact" class="nav-link">Get in Touch</a>
+        </nav>
+    </div>
+
+    <button class="resume-btn" onclick="openResume()">Resume</button>
+</header>
+
+
+
+<!-- ************* sections stars ********************************************************************* -->
+
+<main>
+
+<!--                                               HERO                                           -->
+
+<section id="hero" class="section hero">
+    <div class="hero-content">
+        <div class="cube-scene">
+            <div class="cube-grid"></div>
+            <div class="cube-floor"></div>
+        </div>
+        <div class="grid-hover"></div>
+        <p class="sub">From idea to impact</p>
+        <h1>
+            I design, build, and <br>deploy complete<br>
+            <a style="color: #ff6a00;">digital systems.</a>
+        </h1>
+        <p class="desc">
+            I analyze problems, architect solutions, select the right tech stack,<br>
+            and deliver real, working products.
+        </p>
+
+        <button class="main-btn" style="position: relative;top:40px;"><a href="#work"style="text-decoration: none; color:white;">Explore My Work</a> </button>
+        <button class="main-btn" style="position: relative;top:40px; background-color:#ff6a00;"><a href="#about"style="text-decoration: none; color:black;">Who am I?</a> </button>
+    
+    </div>
+</section>
+
+
+
+<!--                                                 WHO AM I                                     -->
+
+<section id="about" class="section about">
+    <h2>Who am <a style="color: #ff6a00;">I</a> ?</h2>
+
+    <div class="about-text">
+        <p>Hi, I'm <strong style="color: #ff6a00;">Imandi Kesava Bhavani Raju</strong>,  a Computer Science student who loves exploring beyond limits.</p>
+
+        <p>I build systems that think, learn, and look great while doing it from intelligent recommendation engines to <br>structured enterprise dashboards. <br><br>I enjoy transforming ideas into scalable, user-friendly solutions that solve real-world problems.</p>
+
+        <p>My core interests lie in Artificial Intelligence, Machine Learning, and Full-Stack Development. <br>I constantly experiment, build, and refine projects that combine strong logic with clean design.</p>
+
+        <p>I focus on writing efficient code, building intuitive interfaces, and creating systems that deliver <br>both performance and impact.<br><br></p>
+
+        <p>Beyond tech, I enjoy spending time with friends, sharing ideas, and creating memorable moments<br> because great innovation often starts with great conversations.</p>
+    </div>
+
+    <div class="firstimg"><img src="assets/who/me.jpeg" class="float-img img-right-top"></div>
+    <div class="secondimg"><img src="assets/who/hack.jpeg" class="float-img img-right-middle"></div>
+    <div class="thirdimg"><img src="assets/who/first.jpeg" class="float-img img-right-bottom"></div>
+</section>
+
+
+
+<!--                                                 My Works                                    -->
+
+<section id="work" class="section work">
+    <h2>My <span class="highlight" style="color: #ff6a00;">Works</span></h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <div class="card-title">Clinical Decision Support </div>
+            <div class="card-content">
+                <p>AI system that predicts disease risk from patient data and provides transparent explanations for each prediction. <br>Helps doctors make faster, data-driven clinical decisions with trust and interpretability.</p>
+                <a href="https://github.com/kesavaimandi/Explainable-AI-for-Clinical-Decision-Support" class="github-link"target="_blank">GitHub →</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="card-title">Spam Mail Detection</div>
+            <div class="card-content">
+                <p>Machine learning system that classifies email as spam or not spam using text-based features and NLP preprocessing.<br>Improves email filtering accuracy and reduces noise in user inboxes with statistical and ML-based techniques.</p>
+                <a href="https://github.com/kesavaimandi/Spam-Mail-Detection" class="github-link" target="_blank">GitHub →</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="card-title">Salary Prediction</div>
+            <div class="card-content">
+                <p>Machine learning regression model that predicts salary based on job role, experience, and education level.<br>Provides data-driven compensation insights to support career and hiring decisions.</p>
+                <a href="https://github.com/kesavaimandi/Salary-Prediction" class="github-link"target="_blank">GitHub →</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="card-title">Retail Sales Prediction</div>
+            <div class="card-content">
+                <p>Performed sales trend analysis and forecasting for Walmart stores using historical weekly sales data.<br>Built predictive models with Python and regression techniques to understand patterns and estimate future weekly sales.</p>
+                <a href="https://github.com/kesavaimandi/Retail-Sales-Prediction-and-Trend-Analysis-for-Walmart-Stores" class="github-link"target="_blank">GitHub →</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="card-title">Recommendation Engine</div>
+            <div class="card-content">
+                <p>Designed a Netflix-style recommendation system that predicts user-preferred movies using rating and genre analysis.<br>Demonstrates collaborative filtering logic and user behavior modeling for personalized content delivery.</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="card-title">Data Dashboard</div>
+            <div class="card-content">
+                <p>Deployed interactive enterprise sales dashboards on Power BI Service, consolidating key KPIs for real-time decision support.<br>Leveraged advanced features like Q&A analytics, dynamic filters, and focus mode to analyze regional performance and target achievement.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--                                            WHAT I USE                                   -->
+<section id="skills" class="section skills">
+    <h2>What I <a style="color: #ff6a00;">Use</a> ?</h2>
+
+    <div class="skill-grid">
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/python.png" alt="Python">
+            </div>
+            <p>Python</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/css.jpg" alt="CSS">
+            </div>
+            <p>CSS</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/html.jpg" alt="HTML">
+            </div>
+            <p>HTML</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/mssql.png" alt="MS SQL">
+            </div>
+            <p>MS SQL</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/numpy.png" alt="Numpy">
+            </div>
+            <p>Numpy</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/pandas.png" alt="Pandas">
+            </div>
+            <p>Pandas</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/matplotlib.png" alt="Matplotlib">
+            </div>
+            <p>MatplotLib</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/seaborn.png" alt="Seaborn">
+            </div>
+            <p>Seaborn</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/flask.png" alt="Flask">
+            </div>
+            <p>Flask</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/scikitlearn.png" alt="Scikit-Learn">
+            </div>
+            <p>Scikit-Learn</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/tensorflow.png" alt="TensorFlow">
+            </div>
+            <p>TensorFlow</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/pytorch.png" alt="PyTorch">
+            </div>
+            <p>PyTorch</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/langchain.png" alt="LangChain">
+            </div>
+            <p>LangChain</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/vscode.jpg" alt="Jupyter">
+            </div>
+            <p>Vs Code</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/jupyter.png" alt="Jupyter">
+            </div>
+            <p>Jupyter</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/powerbi.png" alt="Power BI">
+            </div>
+            <p>Power BI</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/msexcel.jpg" alt="MS Excel">
+            </div>
+            <p>MS Excel</p>
+        </div>
+
+        <div class="skill">
+            <div class="icon">
+                <img src="assets/skills/huggingface.png" alt="Hugging Face">
+            </div>
+            <p>Hugging Face</p>
+        </div>
+    </div>
+
+    <button onclick="location.href='#education'" class="main-btn">
+        Where did I learn my <a class="haa" style="color: #ff6a00;">craft?</a>
+    </button>
+</section>
+
+
+
+
+
+<!--                                                        EDUCATION                                                    -->
+<section id="education" class="section education">
+    
+    <div class="edu-container">
+        
+        <div class="edu-left">
+            <h3>Education: <i style="color: #ff6a00;">The Foundation</i></h3>
+            <p><strong>Certification Program in Artificial Intelligence & Data Science</strong><br>Intellipaat (2024-2026)<br>Grade : <a style="color: #ff6a00;">A</a></p>
+            <br>
+            <p><strong>B.Tech in Computer Science and Engineering</strong><br>Adarsh College of Engineering (2022–2025)<br>CGPA : <a style="color: #ff6a00;">6.90</a> / 10</p>
+            <br>
+            <p><strong>Diploma in  Mechanical Engineering</strong><br>Nuzvid Polytechnic (2019-2022)<br>PC : <a style="color: #ff6a00;">87.51</a>%</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="edu-right">
+            <h3>Certifications: <i style="color: #ff6a00;">Proven Skills</i></h3>
+            <p style="display:flex; justify-content:space-between;">
+                <span>Artificial Intelligence Course</span>
+                <span>
+                    <b>IntelliPaat</b>
+                    <a href="https://lms.intellipaat.com/certificate-link/?Yz1jdXMtOTEyNjQwJnU9Mjg1MDY2JmV4dD0x" target="_blank"
+                    style="margin-left:10px; text-decoration:none; color:#ff6a00;">
+                    &nearr;
+                    </a>
+                </span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between;">
+                <span>Deloitte Australia – Data Analytics</span>
+                <span>
+                    <b>Deloitte</b>
+                    <a href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_68c80cb5605e6e6f579eccac_1758001011950_completion_certificate.pdf" target="_blank"
+                    style="margin-left:10px; text-decoration:none; color:#ff6a00;">
+                    &nearr;
+                    </a>
+                </span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between;">
+                <span>Python Certification on Machine Learning</span>
+                <span>
+                    <b>IntelliPaat</b>
+                    <a href="https://lms.intellipaat.com/certificate-link/?Yz1jdXMtOTEyMzgwJnU9Mjg1MDY2JmV4dD0x"
+                    target="_blank"
+                    style="margin-left:10px; text-decoration:none; color:#ff6a00;">
+                    &nearr;
+                    </a>
+                </span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between;">
+                <span>Microsoft SQL Certificate</span>
+                <span>
+                    <b>IntelliPaat</b>
+                    <a href="https://lms.intellipaat.com/certificate-link/?Yz0yODUzJnU9Mjg1MDY2JmV4dD0x" target="_blank"
+                    style="margin-left:10px; text-decoration:none; color:#ff6a00;">
+                    &nearr;
+                    </a>
+                </span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between;">
+                <span>Python Certificate</span>
+                <span>
+                    <b>IntelliPaat</b>
+                    <a href="https://lms.intellipaat.com/certificate-link/?Yz01OTEwJnU9Mjg1MDY2JmV4dD0x" target="_blank"
+                    style="margin-left:10px; text-decoration:none; color:#ff6a00;">
+                    &nearr;
+                    </a>
+                </span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between;">
+                <span>Cyber Security Certification</span>
+                <span>
+                    <b>DevTown</b>
+                    <a href="https://www.cert.devtown.in/verify/3lmUg6xE2" target="_blank"
+                    style="margin-left:10px; text-decoration:none; color:#ff6a00;">
+                    &nearr;
+                    </a>
+                </span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between;">
+                <span>Generative AI Workshop</span>
+                <span>
+                    <b style="position: relative;left:-38px">JNTUV</b>
+                </span>
+            </p>
+            
+            <p style="display:flex; justify-content:space-between;">
+                <span>Foundation Level Full Stack Developer</span>
+                <span>
+                    <b style="position: relative;left:-38px">Bitlabs</b>
+                </span>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--                                                      CONTACT                                                  -->
+<section id="contact" class="section contact">
+    <p>
+        I’m always looking for the next data puzzle.<br>  
+        Drop me a line and let’s talk.
+    </p>
+
+    <h3>Email: imandi.kesava2004<a style="text-decoration: none; color: #d95a00;">@</a>gmail.com</h3>
+
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/imandi-kesava" target="_blank">
+            <i class="fab fa-linkedin" style="font-size: 40px;color:#ff6a00"></i>
+        </a>
+
+        <a href="https://github.com/kesavaimandi" target="_blank">
+            <i class="fab fa-github" style="font-size: 40px;color:#ff6a00"></i>
+        </a>
+
+        <a href="https://www.instagram.com/mr.kesava_46?igsh=MzB5azVyNzljN3Nu&utm_source=qr" target="_blank">
+            <i class="fab fa-instagram" style="font-size: 40px;color:#ff6a00"></i>
+        </a>
+    </div>
+    <div class="top-arrow" onclick="location.href='#hero'">&#9650;</div>
+</section>
+
+
+</main>
+
+<!--                                 Section Close                           -->
+
+
+<script src="js/script.js"></script>
+
+
+<div class="resume-modal" id="resumeModal">
+    <div class="resume-content">
+        
+        <div class="resume-header">
+            <button class="download-btn">
+                <a href="assets/resume/Imandi Kesava Bhavani Raju.pdf" download>Download</a>
+            </button>
+
+            <button class="close-btn" onclick="closeResume()">Cancel</button>
+        </div>
+
+        <iframe src="assets/resume/Imandi Kesava Bhavani Raju.pdf" frameborder="0"></iframe>
+
+    </div>
+</div>
+
+</body>
+</html>
