@@ -775,7 +775,7 @@ h1, h2, h3 {
 @media (max-width: 768px) {
   section { padding: 60px 5% !important; height: auto; min-height: 100vh; }
   .snap-container { scroll-snap-type: none; overflow-y: scroll; }
-  .floating-nav { min-width: 92%; border-radius: 30px; bottom: 15px; }
+  .nav-container { display: none; }
   
   /* Projects Mobile Redesign */
   .mobile-title { display: block; margin-top: 1rem; }
