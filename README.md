@@ -11,7 +11,7 @@ SYNOPSIS
         precision either side. Based in Hyderabad, India.
 
 CONTACT
-        <a href="https://kesavaimandi.github.io">web</a>, <a href="https://linkedin.com/in/imandikesava">linkedin</a>, <a href="https://github.com/kesavaimandi">github</a>, <a href="mailto:blackbox02032004@gmail.com">email</a>
+        <a href="https://kesavaimandi.github.io/kesavaimandi/">web</a>, <a href="https://www.linkedin.com/in/imandi-kesava/">linkedin</a>, <a href="mailto:imandi.kesava2004@gmail.com">email</a>
 
 DESCRIPTION
         ML Engineer at CSIR-Structural Engineering Research Centre,
@@ -26,32 +26,29 @@ DESCRIPTION
         Off-keyboard: South Indian music and film.
 
 TOOLBELT
-        languages    Python, SQL, Kotlin
+        languages    Python, SQL, C++, HTML, CSS
         ml           TensorFlow, PyTorch, Scikit-learn, Keras
         web          Flask, React, LangChain
         data         Pandas, NumPy
         tools        Git, GitHub
 
 PROJECTS
-        crack-tip-tracking(1)     CV/OCR pipeline tracking crack
+        crack-tip-tracking         CV/OCR pipeline tracking crack
                                    growth against load, from raw
                                    test imagery
 
-        unloading-compliance(1)   ASTM E1820 crack-length analysis
+        unloading-compliance       ASTM E1820 crack-length analysis
                                    on pipeline steel, cyclic loading
 
-        xai-clinical(1)           Flask + SHAP, interpretable
+        xai-clinical               Flask + SHAP, interpretable
                                    predictions across 3 medical
                                    domains
 
-        noderift(1)               encrypted BLE mesh messaging,
-                                   Android, no internet required
-
-        securenest-cloud(1)       secure cloud architecture and
+        securenest-cloud           secure cloud architecture and
                                    deployment
 
 SEE ALSO
-        <a href="https://kesavaimandi.github.io">portfolio(1)</a>, <a href="https://linkedin.com/in/imandikesava">linkedin(1)</a>
+        <a href="https://kesavaimandi.github.io/kesavaimandi/">portfolio</a>, <a href="https://www.linkedin.com/in/imandi-kesava/">linkedin</a>
 
 KESAVA(1)                    User Manual                    KESAVA(1)
 </pre>
